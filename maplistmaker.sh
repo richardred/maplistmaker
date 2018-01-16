@@ -1,0 +1,1 @@
+ls -d */ | cut -d ' ' -f1 | awk '{print "https://osu.ppy.sh/s/"$1}' >> output.txt
