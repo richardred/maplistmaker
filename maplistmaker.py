@@ -7,10 +7,11 @@ root = tk.Tk()
 root.withdraw()
 
 filepath = ''
+path1 = os.getenv('LOCALAPPDATA') + '\\osu!\\Songs'
 
-try:
-    filepath = os.getenv('LOCALAPPDATA') + '\\osu!\\Songs'
-except Exception:
+if os.path.isdir(path1):
+    filepath = path1
+else:
     filepath = filedialog.askdirectory()
 
 map_list = [dI for dI in os.listdir(filepath) if os.path.isdir(os.path.join(filepath,dI))]
