@@ -2,9 +2,6 @@
 #Writen by Kok Tan (https://github.com/tankoks)
 
 
-ls -d */ | cut -d ' ' -f1 | awk '{print "https://osu.ppy.sh/s/"$1}' >> output.txt
-
-
-
 $a = Get-Location
 $osupath = (Get-ItemProperty -Path Registry::HKEY_CLASSES_ROOT\osu\shell\open\command).'(default)' | %{$_.split(" ")[0]} | %{$_.Replace("osu!.exe", "Songs")} | %{$_.Replace("`"","") }
+dir  $osupath -Directory -name | %{$_.split(' ')[0]} | Foreach-Object{ "https://osu.ppy.sh/d/$_" } >> $a\OsuSongs.txt
