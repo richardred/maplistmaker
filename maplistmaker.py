@@ -1,6 +1,15 @@
 import os
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import *
 
-filepath = os.getenv('LOCALAPPDATA') + '\\osu!\\Songs'
+root = tk.Tk()
+root.withdraw()
+
+filepath = filedialog.askdirectory()
+print(filepath)
+
+#filepath = os.getenv('LOCALAPPDATA') + '\\osu!\\Songs'
 
 map_list = [dI for dI in os.listdir(filepath) if os.path.isdir(os.path.join(filepath,dI))]
 
@@ -18,4 +27,5 @@ def redirect_to_file():
             outfile.write('%s\n' % item)
 
 if __name__ == '__main__':
-    redirect_to_file()
+    #redirect_to_file()
+    print()
