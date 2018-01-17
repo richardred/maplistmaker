@@ -14,28 +14,6 @@ This will result in a new text file being created on your Windows Desktop with t
 
 If your osu! folder is not in the default directory `C:\Users\USERNAME\AppData\Local\osu!\Songs`, you will need to manually select the correct file path.
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Built With
 
 * [Pyinstaller](http://www.pyinstaller.org/) - The package used to create standalone .exe files from python code
