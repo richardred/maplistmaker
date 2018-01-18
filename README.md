@@ -4,7 +4,7 @@ This repository contains three (four, the .exe was simply made from the .py file
 The idea for this arose when a friend requested beatmaps to download. We set up a multiplayer lobby, but it was extremely tedious for me to select songs and wait for
 him to download them one by one. Naturally, Google Drive was the next best choice, but the files quickly added up to infeasible sizes and became far too large for my
 apartment internet to upload in any reasonable amount of time. So, I decided to write a program to automate this process. The PowerShell script, the shell script, the
-python code, as well as the executable file created from the python code all accomplish the same thing. The end result is a text file with a link to each beatmap in the
+python code, as well as the executable file created from the python code all accomplish the same end result: a text file with a link to each beatmap in the
 user's Songs folder.
 
 ## How to Use
