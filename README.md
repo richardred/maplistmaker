@@ -21,3 +21,5 @@ If your osu! folder is not in the default directory `C:\Users\USERNAME\AppData\L
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+TODO: add manual selection
