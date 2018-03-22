@@ -18,6 +18,10 @@ If your osu! folder is not in the default directory `C:\Users\USERNAME\AppData\L
 
 * [Pyinstaller](http://www.pyinstaller.org/) - The package used to create standalone .exe files from python code
 
+## Authors
+* **Richard Red** - *Python code* - [richardred](https://github.com/richardred)
+* **Kok Seng Tan** - *PS/Shell scripts* - [tankoks](https://github.com/tankoks)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
